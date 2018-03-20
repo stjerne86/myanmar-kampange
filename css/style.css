@@ -1,0 +1,757 @@
+/*global*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1, 5;
+    margin: 0;
+    background-color: padding: 0;
+
+}
+
+#home {
+    width: 25px;
+
+}
+img{
+    width:350px;
+    text-align: center;
+}
+
+/*#############################-mobile-first*/
+
+@media (max-width:479px) {
+
+    #wrapper {
+        margin: auto;
+        width: 80%;
+        min-height: 100%;
+    }
+
+    #main {
+        overflow: ;
+        padding-bottom: 100px;
+        height: 100px;
+
+    }
+
+h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.header1 {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body {
+    height: 100%;
+
+
+}
+
+#footer {
+    background-color;
+    position: relative;
+    height: 110px;
+    margin-top: 40px;
+    padding-bottom: -100px;
+    clear: both;
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    position: static;
+    background-color: gainsboro;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+
+header a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.logo {
+    text-align: center;
+    position: static;
+    margin-top: 10px;
+
+}
+
+#logo {
+
+    width: 30%;
+    padding:
+}
+
+/*index page*/
+
+.index-banner {
+    width: 100%;
+    height: 150px;
+    background-image: url('/images/myanmar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h1 {
+    font-family: catamaran;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+#statue {
+    width: 300px;
+
+}
+
+#gadehandler {
+
+    width: 300px;
+}
+
+#rejseleder {
+    position: static;
+    border: 2px solid #ff5c33;
+    width: 300px;
+}
+
+
+#kundetilfredshed {
+    position: static;
+    border: 2px solid #ff5c33;
+    width:300px;
+}
+
+#kundetilfredshed a {
+    padding: 5px;
+}
+
+/*side om myanmar*/
+
+.index-banner1 {
+    width: 100%;
+    height: 150px;
+    background-image: url('/images/barn-med-fad.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    position: static;
+}
+
+.vertical-center1 {
+    display: table-cell;
+    vertical-align: bottom;
+
+}
+
+.index-banner1 h1 {
+    font-family: catamaran;
+    font-size: 30px;
+    color: #d9d9d9;
+    font-weight: 1000;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/*-------------------------side om rejsemål*/
+
+.index-banner2 {
+
+    width: 100%;
+    height: 150px;
+    background-image: url('/images/pagode-sletten.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    position: static;
+}
+
+.vertical-center2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner2 h1 {
+    font-family: catamaran;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*------------------side om praktisk info*/
+
+.index-banner3 {
+    width: 100%;
+    height: 150px;
+    background-image: url('/images/pagode.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    position: static;
+}
+
+.vertical-center3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner3 h1 {
+    font-family: catamaran;
+    font-size: 30px;
+    color: #999999;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*-------------------------side om kontakt*/
+
+.index-banner4 {
+    width: 100%;
+    height: 150px;
+    background-image: url('/images/taage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    position: static;
+}
+
+.vertical-center4 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner4 h1 {
+    font-family: catamaran;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+body .header1 {
+    position: absolute;
+    align-content: center;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*----------------------burger-menu*/
+
+.nav {
+    /* 1 start-burger-menu-mobile*/
+    border-bottom: 1px, solid #ff8000;
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    /* 2 burger-menu-mobile*/
+    margin: 20px;
+
+}
+
+.menu a {
+    /* 3 burger-menu-mobile*/
+    text-decoration: none;
+    margin: 0 10px;
+    color: gray;
+    border-color: aqua;
+    line-height: 50px;
+    clear: right;
+    text-align: center;
+}
+
+.menu a:hover {
+    /* 4 burger-menu-mobile*/
+    color: #ff8000;
+
+}
+
+#toggle:checked + .menu {
+    /* 5 burger-menu*/
+    display: block;
+}
+
+#toggle {
+    /* 6 burger-menu-mobile*/
+    display: none;
+
+}
+
+.menu {
+    /* 7 burger-menu-mobile*/
+    text-align: right;
+    width: 100%;
+    display: none;
+}
+
+.menu a {
+    /* 8 burger-menu-mobile*/
+    display: block;
+    border-bottom: 1px, solid #ff8000;
+    margin: 0;
+}
+
+label {
+    /* 9 burger-menu-mobile*/
+    position: static;
+    padding-bottom: 20;
+    font-size: 27px;
+    width: 20px;
+    margin: 0px 0px 10px 10px;
+    text-align: center;
+}
+
+label {
+    /* 10 slut-burger-menu-mobile*/
+    display: block;
+    cursor: pointer;
+}
+
+}
+
+/*#############################-tablet verison*/
+
+@media (min-width:480px) {
+    wrapper {
+        float: left;
+    }
+
+    aside {
+        text-align: center;
+        position: static;
+
+    }
+    /*-------------------------index page*/
+   
+    #flex-container {
+    display: flex;
+    flex-direction: row;
+        justify-content: center;
+    
+}
+        
+    
+    #flex-container-index {
+
+        display: flex;
+        flex-direction: row;
+        text-align: inherit;
+    }
+    
+    #flex-container-tekst{
+         display: flex;
+        flex-direction: row;
+        text-align: inherit;
+        
+        
+    }
+
+    .smuk-natur {
+        margin: 2%;
+    }
+    .indblik {
+        margin: 2%;
+    }
+
+    .index-banner {
+        width: 100%;
+        height: 150px;
+        background-image: url('/images/myanmar.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+    }
+
+    .vertical-center {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .index-banner h1 {
+        font-family: catamaran;
+        font-size: 30px;
+        color: #333333;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+
+    }
+    .flex-container {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    #statue {
+        width: 100%;
+    }
+
+    #gadehandler {
+
+        width: 100%;
+
+    }
+
+    #flex-container-tekst {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: justify;
+
+    }
+
+    #rejseleder {
+        position: ;
+        border: 2px solid #ff5c33;
+        width: 50%;
+        height: 270px;
+    }
+
+    #kundetilfredshed {
+        position: static;
+        border: 2px solid #ff5c33;
+        width: 50%;
+        height: 270px;
+    }
+
+    /*-------------------------side om myanmar*/
+    .index-banner1 {
+        width: 100%;
+        height: 150px;
+        background-image: url('/images/barn-med-fad.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        position: sticky;
+    }
+
+    .vertical-center1 {
+        display: table-cell;
+        vertical-align: bottom;
+
+    }
+    .index-banner1 h1 {
+        font-family: catamaran;
+        font-size: 30px;
+        color: #d9d9d9;
+        font-weight: 1000;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .bagan{
+          text-align: inherit;
+        margin: 0px;
+        padding: 10px;
+        
+    }
+
+
+
+    /*-----------------------------rejsemål*/
+    .index-banner2 {
+
+        width: 100%;
+        height: 150px;
+        background-image: url('/images/pagode-sletten.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        position: static;
+    }
+
+    .vertical-center2 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .index-banner2 h1 {
+        font-family: catamaran;
+        font-size: 30px;
+        color: #f2f2f2;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    /*-------------------------side om praktisk info*/
+    .index-banner3 {
+        width: 100%;
+        height: 150px;
+        background-image: url('/images/pagode.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        position: static;
+    }
+
+    .vertical-center3 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .index-banner3 h1 {
+        font-family: catamaran;
+        font-size: 30px;
+        color: #999999;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+
+    /*------------------------side om kontakt*/
+    .index-banner4 {
+        width: 100%;
+        height: 150px;
+        background-image: url('/images/taage.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        position: static;
+    }
+
+    .vertical-center4 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .index-banner4 h1 {
+        font-family: catamaran;
+        font-size: 30px;
+        color: #333333;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+
+
+    /*--------------overordnet styling tablet*/
+    h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    h3 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .wrapper {
+
+        margin: auto;
+        width: 90%;
+        height: 100%;
+
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    #logo {
+
+        z-index: 1;
+        width: 30%;
+
+    }
+    /*----------------------------burger-menu*/
+    label {
+        /*start 1 menu-bar +480*/
+        display: none;
+    }
+
+    #toggle {
+        /* 2 menu-bar +480*/
+        display: none;
+
+    }
+
+    .menu {
+        /* 3 menu-bar +480*/
+        margin: 0 30px 0 0;
+        border-color: aquamarine;
+        text-align: center;
+    }
+
+    .menu a {
+        /* 4 menu-bar +480*/
+        text-decoration: none;
+        margin: 0 10px;
+        color: gray;
+        border-color: aqua;
+        line-height: 70px;
+        clear: ;
+    }
+
+    .menu a:hover {
+        /*slut 5 menu-bar +480*/
+        color: #ff8000;
+    }
+
+    body .background img {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        margin-bottom: 5%;
+        z-index: -1;
+
+    }
+
+    /*---------------------footer*/
+    #wrapper {
+        width: 90%;
+        margin: auto;
+        min-height: 100%;
+    }
+
+    #main {
+        overflow: auto;
+        padding-bottom: 100px;
+        height: 100px;
+    }
+
+    #footer {
+        background-color;
+        position: relative;
+        height: 200px;
+        margin-top: 40px;
+        padding-bottom: -100px;
+        clear: both;
+        list-style: none;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 20px;
+        position: static;
+        background-color: gainsboro;
+        position: relative;
+        height: 100px;
+        clear: both;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    nav li {
+        display: inline-block;
+        margin: 1%;
+        width: text-align: left;
+        display: inline-block;
+        margin: 1% 0 3% 10%;
+
+    }
+
+}
+
+/*#############################-tablet verison-horisontal*/
+
+@media (min-width:600px)(max-width:1023px) {
+
+    #flex-container-om-myanmar {
+        display: flex;
+        flex-direction: row;
+        text-align: inherit;
+
+    }
+}
+
+
+
+/*#######################-Desktop*/
+
+@media (min-width:1024px) {
+
+    #flex-container-kontakt {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+
+    /*---om myannmar*/
+    #flex-container-om-myanmar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+
+    }
+    .mandaly {
+        text-align: inherit;
+        margin: 0px;
+        padding: 10px;
+        align-items: center;
+    }
+    .myanmar {
+        text-align: inherit;
+        margin: 0px;
+        padding: 10px;
+    }
+    #flex-container-om-myanmar-hovedstad {
+        display: flex;
+        flex-direction: row;
+    }
+    .bagan {}
+
+}
